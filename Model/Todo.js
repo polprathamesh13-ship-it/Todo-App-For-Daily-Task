@@ -5,6 +5,10 @@ const todoSchema = new mongoose.Schema({
         type: mongoose.Schema.ObjectId,
         ref: "user"
     },
+    name:{
+        type:String,
+        required:true
+    },
     addTask: {
         type: Date,
     },
