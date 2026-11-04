@@ -1,5 +1,5 @@
 const { getTodo, updateTodo, postTodo, deleteTodo } = require("../Contoller/TodoContoller")
-const  auth  = require("../middlerware/auth")
+const  auth  = require("../Middlerware/auth")
 
 const route = require("express").Router()
 
